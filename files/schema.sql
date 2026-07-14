@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS wegannosdb;
+USE wegannosdb;
+
+CREATE TABLE IF NOT EXISTS colega (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    dia_limpeza VARCHAR(100) NOT NULL
+);
